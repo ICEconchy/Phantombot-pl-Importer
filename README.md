@@ -7,7 +7,7 @@ The main difference is I will keep this up to date and provide support where pos
 Permission proof: Getting it... Hopefully, if not then this repo will be thanos snapped...
 
 
-## Setup
+## Setup - Python version
 So to start of with you'll need urllib3
 
     pip install urllib3
@@ -39,15 +39,24 @@ This won't work, you'll need the playlist id which can be found at the end of th
 PL3kXme0WFC_7biGeLKzSKGBH-Fdv8_lVs
 
 
+
+# Command Version
+
+Many have recommended using the youtube-dl package to do what the python script does.
+It requires [youtube-dl](https://youtube-dl.org/) and [jq](https://stedolan.github.io/jq/)
+
+## Setup
+
+Once you have installed youtube-dl and jq, execute this command
+
+
+    youtube-dl -j --flat-playlist "https://www.youtube.com/watch?v=P7lE-G1oC34&list=PL9tY0BWXOZFsvIyhwbYAnF7A0LfrNq8uQ" | jq -r '.id' | sed 's_^_https://youtu.be/_' > playlist.txt
+    
+    
+
+
 ## FIN
-Thats it! Once you give the script what it asks for it'll place a file called playlist.txt which you place in /addons/youtubePlayer
+Thats it! Once you give the script/command what it asks for it'll place a file called playlist.txt which you place in /addons/youtubePlayer
 and use the command 
 
     !playlist importpl file [playlist name] [file]
-
-
-
-
-
-
-
