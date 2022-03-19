@@ -1,10 +1,12 @@
 
+
 # Phantombot-pl-Importer
 An importer for the phantombot playlist module. The bulk of the code (all of it except for a fix at this point) for this importer was made by Branden#1337 over on the [PhantomBot Community Discord server](https://discord.com/invite/YKvMd78)
 
 
 The main difference is I will keep this up to date and provide support where possible and add new features.
-Permission proof: Getting it... Hopefully, if not then this repo will be thanos snapped...
+Permission proof: 
+![enter image description here](https://www.dropbox.com/s/95n0hus31ic9q99/Screenshot%202022-03-19%20224435.png?dl=1)
 
 
 ## Setup - Python version
