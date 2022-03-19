@@ -4,7 +4,7 @@ An importer for the phantombot playlist module. The bulk of the code (all of it 
 
 
 The main difference is I will keep this up to date and provide support where possible and add new features.
-Permission proof:
+Permission proof: Getting it... Hopefully, if not then this repo will be thanos snapped...
 
 
 ## Setup
