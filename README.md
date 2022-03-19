@@ -6,7 +6,7 @@ An importer for the phantombot playlist module. The bulk of the code (all of it 
 
 The main difference is I will keep this up to date and provide support where possible and add new features.
 Permission proof: 
-![Permission proof](https://www.dropbox.com/s/95n0hus31ic9q99/Screenshot%202022-03-19%20224435.png?dl=1)
+![Permission proof](https://raw.githubusercontent.com/ICEconchy/Phantombot-pl-Importer/main/assets/Screenshot_2022-03-19%20224435.png)
 
 
 ## Setup - Python version
